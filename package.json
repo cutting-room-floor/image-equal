@@ -4,7 +4,7 @@
   "description": "assert the similarity of a produced image versus a fixture",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/test.js"
+    "test": "tap --coverage test/test.js"
   },
   "keywords": [
     "assert",
@@ -19,6 +19,6 @@
     "mapnik": "^3.4.7"
   },
   "devDependencies": {
-    "tape": "^4.2.0"
+    "tap": "^1.4.1"
   }
 }
