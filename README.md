@@ -10,7 +10,21 @@ slightly different in terms of anti-aliasing or other details, but are
 
     npm install --save-dev image-equal
 
-## use
+## `imageEqual`
+
+Assert that two images are similar.
+
+### Parameters
+
+* `buffer` **`Buffer`** input buffer
+* `fixture` **`Buffer`** expectation buffer
+* `options` **`[Object]`**  (optional, default `{}`)
+  * `options.diffsize` **`[number]`**  (optional, default `0.10`)
+  * `options.diffpx` **`[number]`**  (optional, default `0.02`)
+  * `options.threshold` **`[number]`**  (optional, default `16`)
+
+
+### Examples
 
 ```js
 t.ifError(imageEqual(result, expectation));

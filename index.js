@@ -2,12 +2,16 @@ var mapnik = require('mapnik'),
   defined = require('defined');
 
 /**
+ * Assert that two images are similar.
+ *
  * @param {Buffer} buffer input buffer
  * @param {Buffer} fixture expectation buffer
- * @param {Object} options
- * @param {number} options.diffsize
- * @param {number} options.diffpx
- * @param {number} options.threshold
+ * @param {Object} [options={}]
+ * @param {number} [options.diffsize=0.10]
+ * @param {number} [options.diffpx=0.02]
+ * @param {number} [options.threshold=16]
+ * @example
+ * t.ifError(imageEqual(result, expectation));
  */
 function imageEqual(buffer, fixture, options) {
   options = options || {};
