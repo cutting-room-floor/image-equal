@@ -1,4 +1,4 @@
-var test = require('tape'),
+var test = require('tap').test,
   path = require('path'),
   fs = require('fs'),
   imageEqual = require('../');
