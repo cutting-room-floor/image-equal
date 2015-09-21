@@ -1,6 +1,7 @@
 # image-equal
 
 [![build status](https://secure.travis-ci.org/mapbox/image-equal.svg)](http://travis-ci.org/mapbox/image-equal)
+[![Coverage Status](https://coveralls.io/repos/mapbox/image-equal/badge.svg?branch=master&service=github)](https://coveralls.io/github/mapbox/image-equal?branch=master)
 
 Assert that two images are similar. This is useful for testing applications
 with visual output, like those that work with node-canvas or WebGL. Due

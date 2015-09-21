@@ -1,9 +1,12 @@
 language: node_js
 node_js:
-  - "0.10"
+- '0.10'
 addons:
   apt:
     sources:
-      - ubuntu-toolchain-r-test
+    - ubuntu-toolchain-r-test
     packages:
-      - libstdc++6 # upgrade libstdc++ on linux to support C++11
+    - libstdc++6
+env:
+  global:
+    secure: ICiTJtEV4aayTYvRqcRsbsh51jwojLca/VpC4y4W68artQdrbhNX7NkvFZGc53mWTQESchQwIJJbCtXYtYAe067Gk53Hj+/RVlXLouPL0vsih1I5SbpThUPutqo3UevzjbIk6CisfgfSnjDPi0ZATgg61ByzcnbS9FUSir0Kg0w/d+CPKehVxBGKPrvAqRp0BtXd0FBq2rchiY0ZPUzLSW/Rfb3XOhmjwzSRUSDp4ZTvtyyIJlwjMSpbfzsiWhyLtwKRkC3fEsfY4V8+zVhPqBAcwQkcynrz2K4OwkbYsf5WTNKEUR39S4isZ3GSQRmCyPZDcoF58j5MiS66otfW7Cp5xqqy1GOvB/dznIcbbdVkMhI1e5+vHayYilEa3SGPVsXxepDb8uOItqg/zWGToVRVrO5DFfeQhdUwWQcrmQuSLxqJcdSJ7PvbT8Ur1tXVRDVS0rUhGDiMqbX4uVj81kPN/5/usMGZIxPRiHWXdGajzGlnO1RdB66M2arvJFK4IDkEU8s1MhhKG6H/W2DqSMGf8VfTosMIXh2YFHgDfAT8tNNfAN3m89BFbmQXUVGN2k7Uxnmeq+jvWKPAnP13h2++eFiMVZKV/7JWnxZv+W9Ivj2nOLpjMuuBaY+2beMcGbjDNcQtrT8ig3q4iA5Owy3d/1+p3aM7cXRLtPw1HaQ=
