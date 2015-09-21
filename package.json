@@ -1,6 +1,6 @@
 {
   "name": "image-equal",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "assert the similarity of a produced image versus a fixture",
   "main": "index.js",
   "scripts": {
