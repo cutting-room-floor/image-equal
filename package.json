@@ -1,0 +1,24 @@
+{
+  "name": "image-equal",
+  "version": "1.0.0",
+  "description": "assert the similarity of a produced image versus a fixture",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/test.js"
+  },
+  "keywords": [
+    "assert",
+    "image",
+    "assertion",
+    "test"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "defined": "^1.0.0",
+    "mapnik": "^3.4.7"
+  },
+  "devDependencies": {
+    "tape": "^4.2.0"
+  }
+}
